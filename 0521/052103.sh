@@ -1,1 +1,1 @@
-find ~ -type f 2> /dev/null | sort -r | herd -n 5
+find ~ -type f 2> /dev/null | sort -rn |head -n 5
