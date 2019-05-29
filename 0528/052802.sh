@@ -1,2 +1,2 @@
-cat /etc/services | awk '/80\/tcp/{print $0}' | awk 'NR==1'
+cat /etc/services | grep -w "80/tcp"
 
